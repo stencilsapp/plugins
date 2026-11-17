@@ -4,7 +4,7 @@ Connects your agent to [Stencils](https://stencils.app), the design tool whose c
 
 ## Before you start
 
-You need a Stencils account with a subscription. The first time your agent uses Stencils, it opens your browser to sign in: check the account, then click **Allow**. In Claude Code, run `/mcp` and choose `stencils-remote` to sign in.
+You need a Stencils account with a subscription. The first time your agent uses Stencils, it opens your browser to sign in: check the account, then click **Allow**. In Claude Code, run `/mcp` and choose `stencils` to sign in.
 
 On a Mac with Stencils installed, the `stencils` plugin is faster, and it uses your Mac's fonts.
 

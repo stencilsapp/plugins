@@ -17,7 +17,7 @@ Both need a Stencils account with a subscription.
 claude plugin install stencils --marketplace stencilsapp/plugins
 ```
 
-Or, in Claude Code, run `/plugin install stencils --marketplace stencilsapp/plugins`. To connect through Stencils' servers, install `stencils-remote` instead, then run `/mcp`, choose `stencils-remote` and sign in.
+Or, in Claude Code, run `/plugin install stencils --marketplace stencilsapp/plugins`. To connect through Stencils' servers, install `stencils-remote` instead, then run `/mcp`, choose `stencils` and sign in.
 
 ## Codex
 
