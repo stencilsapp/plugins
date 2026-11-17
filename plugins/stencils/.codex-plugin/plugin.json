@@ -1,0 +1,43 @@
+{
+  "name": "stencils",
+  "version": "1.0.0",
+  "description": "Design in Stencils with your agent, through the Stencils app on your Mac.",
+  "author": {
+    "name": "Stencils",
+    "url": "https://stencils.app"
+  },
+  "homepage": "https://stencils.app/docs/mcp/connect-your-agent/",
+  "repository": "https://github.com/stencilsapp/plugins",
+  "license": "MIT",
+  "keywords": [
+    "stencils",
+    "design",
+    "ui",
+    "canvas",
+    "html",
+    "css",
+    "design-to-code",
+    "code-to-design",
+    "mcp"
+  ],
+  "mcpServers": "./codex-mcp.json",
+  "interface": {
+    "displayName": "Stencils",
+    "shortDescription": "Design in Stencils on your Mac",
+    "longDescription": "Stencils is a design tool whose canvas is real HTML and CSS, so your agent can read a design as it's built and write to it as you watch. This plugin connects through the Stencils app on your Mac: there's nothing to sign in to, edits are faster, and text uses the fonts installed on your Mac. While the app is closed, your agent keeps working through Stencils' servers. Install Stencils for Mac, then open it and sign in once.",
+    "developerName": "Stencils",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://stencils.app",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Describe the design on the current page",
+      "Design a pricing page with three plans",
+      "Make the buttons on this page consistent"
+    ]
+  }
+}

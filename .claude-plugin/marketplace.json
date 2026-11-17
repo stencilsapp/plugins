@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "stencils",
+  "owner": {
+    "name": "Stencils",
+    "url": "https://stencils.app"
+  },
+  "metadata": {
+    "description": "Plugins that connect your agent to Stencils, the design tool whose canvas is real HTML and CSS.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "stencils",
+      "source": "./plugins/stencils",
+      "description": "Work in Stencils through the Mac app. Needs Stencils for Mac, opened and signed in once.",
+      "category": "design"
+    },
+    {
+      "name": "stencils-remote",
+      "source": "./plugins/stencils-remote",
+      "description": "Work in Stencils through Stencils' servers, from any computer. Signs in with your Stencils account in the browser.",
+      "category": "design"
+    }
+  ]
+}

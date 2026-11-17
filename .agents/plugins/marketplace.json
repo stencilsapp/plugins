@@ -1,0 +1,32 @@
+{
+  "name": "stencils",
+  "interface": {
+    "displayName": "Stencils"
+  },
+  "plugins": [
+    {
+      "name": "stencils",
+      "source": {
+        "source": "local",
+        "path": "./plugins/stencils"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "stencils-remote",
+      "source": {
+        "source": "local",
+        "path": "./plugins/stencils-remote"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

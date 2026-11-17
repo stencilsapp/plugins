@@ -1,0 +1,43 @@
+{
+  "name": "stencils-remote",
+  "version": "1.0.0",
+  "description": "Design in Stencils with your agent, through Stencils' servers, from any computer.",
+  "author": {
+    "name": "Stencils",
+    "url": "https://stencils.app"
+  },
+  "homepage": "https://stencils.app/docs/mcp/connect-your-agent/",
+  "repository": "https://github.com/stencilsapp/plugins",
+  "license": "MIT",
+  "keywords": [
+    "stencils",
+    "design",
+    "ui",
+    "canvas",
+    "html",
+    "css",
+    "design-to-code",
+    "code-to-design",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Stencils (remote)",
+    "shortDescription": "Design in Stencils anywhere",
+    "longDescription": "Stencils is a design tool whose canvas is real HTML and CSS, so your agent can read a design as it's built and write to it as you watch. This plugin connects to Stencils' servers at https://mcp.stencils.app, so it works on any computer and in the cloud, with no app to install. The first time, your agent opens your browser to sign in with your Stencils account. On a Mac with Stencils installed, the stencils plugin is faster.",
+    "developerName": "Stencils",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://stencils.app",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Describe the design on the current page",
+      "Design a pricing page with three plans",
+      "Make the buttons on this page consistent"
+    ]
+  }
+}

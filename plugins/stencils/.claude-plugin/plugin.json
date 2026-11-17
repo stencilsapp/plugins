@@ -1,0 +1,25 @@
+{
+  "name": "stencils",
+  "displayName": "Stencils",
+  "version": "1.0.0",
+  "description": "Design in Stencils with your agent, through the Stencils app on your Mac.",
+  "author": {
+    "name": "Stencils",
+    "url": "https://stencils.app"
+  },
+  "homepage": "https://stencils.app/docs/mcp/connect-your-agent/",
+  "repository": "https://github.com/stencilsapp/plugins",
+  "license": "MIT",
+  "keywords": [
+    "stencils",
+    "design",
+    "ui",
+    "canvas",
+    "html",
+    "css",
+    "design-to-code",
+    "code-to-design",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json"
+}

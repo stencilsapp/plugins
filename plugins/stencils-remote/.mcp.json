@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stencils-remote": {
+      "type": "http",
+      "url": "https://mcp.stencils.app"
+    }
+  }
+}
